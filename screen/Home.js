@@ -1,10 +1,15 @@
 import React from "react";
 import { View, Text } from "react-native";
+import Banner from "../components/Banner";
+import Row from "../components/Row";
+import Nav from "../components/Nav";
 
 function Home() {
   return (
     <View>
-      <Text>This is home</Text>
+      <Nav />
+      <Banner />
+      <Row />
     </View>
   );
 }
