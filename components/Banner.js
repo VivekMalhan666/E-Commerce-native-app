@@ -1,12 +1,18 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 function Banner() {
   return (
-    <View>
-      <Text>This is Banner</Text>
+    <View style={styles.banner}>
+      <Text style={styles.banner__text}>This is Banner</Text>
     </View>
   );
 }
+const styles = StyleSheet.create({
+  banner: {
+    flex: 1,
+  },
+  banner__text: {},
+});
 
 export default Banner;
